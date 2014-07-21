@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "name": "devicelight",
+  "description": "C86 FxOS Book sample code - Ambient light sensor API",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Aoitan",
+    "url": "http://blog.nagatsuki-do.net"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Ambient Light Sensor Sample",
+      "description": "C86 FxOS Book sample code - Ambient light sensor API"
+    },
+    "ja-JP": {
+      "name": "環境光センサAPI",
+      "description": "C86 FxOS本サンプルコード - 環境光センサAPI"
+    }
+  },
+  "default_locale": "ja-JP"
+}
