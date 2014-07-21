@@ -21,11 +21,13 @@ function dischargingTimeChange() {
   value.innerHTML = battery.dischargingTime;
 }
 
+// イベント追加
 battery.addEventListener("levelchange", levelChange);
 battery.addEventListener("chargingchange", chargingChange);
 battery.addEventListener("chargingtimechange", chargingTimeChange);
 battery.addEventListener("dischargingtimechange", dischargingTimeChange);
 
+// 初回表示
 levelChange();
 chargingChange();
 chargingTimeChange();
