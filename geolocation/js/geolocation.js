@@ -1,3 +1,5 @@
+var watchId;
+
 function positionPrint(position) {
   var l10n = navigator.mozL10n;
   var _ = document.getElementById.bind(document);
@@ -49,5 +51,13 @@ function getCurrentPosition() {
   
   return getLocation;
 }
+
+document.addEventListener('visibilitychange', (event) => {
+  if (document.hidden) {
+    navigator.geolocation.clearWatch(watchId);
+  } else {
+    startPositioning();
+  }
+});
 
 startPositioning();
