@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "name": "geolocation",
+  "description": "C86 FxOS Book sample code - Geolocation API",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Aoitan",
+    "url": "http://blog.nagatsuki-do.net"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Geolocation API Sample",
+      "description": "C86 FxOS Book sample code - Geolocation API"
+    },
+    "ja": {
+      "name": "地理位置情報API",
+      "description": "C86 FxOS本サンプルコード - 地理位置情報API"
+    }
+  },
+  "permissions": {
+    "geolocation": {}
+  },
+    "type": "privileged",
+  "default_locale": "ja"
+}
